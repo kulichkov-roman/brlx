@@ -1,0 +1,18 @@
+.action-form-t {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+.action-form-t form input[type=text], .action-form-t form input[type=password] {
+	margin-bottom: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 11px;
+	outline: medium none;
+	border: 1px solid #E7E7E7;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px -1px rgba(180, 188, 191, 0.23) inset;
+	vertical-align: middle;
+	font-size: 90%;
+}

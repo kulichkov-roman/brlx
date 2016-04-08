@@ -1,0 +1,135 @@
+/******  search line *****/
+
+.dcontainer-search-form {
+    background:#E0E7EC;
+    position: absolute;
+    display: none;
+    z-index: 50;
+}
+
+.dcontainer-search-form #search-line {
+    height: 67px;
+}
+
+#search-form{
+    position: relative;
+    overflow: hidden;
+    margin: 15px 0 0px;
+    width: 100%;
+    float: right;
+}
+
+#search-form input[type=text]{
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    padding: 6px 0px 6px 10px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #777;
+    border-radius: 0;
+}
+
+.clwhite #search-form input[type=text]{
+    border: 1px solid #CCC;
+}
+
+.cldark #search-form,
+.cldarkcolor #search-form{
+    margin-top: 8px;
+}
+
+.clwhite #search-form{
+    margin-top: 7px;
+    /*margin-right: -20px;*/
+}
+
+.clwhite .inline-menu  #search-form
+{
+    margin-top: 3px;
+}
+
+.full-width .inline-menu  #search-form
+{
+    margin-right: -15px;
+}
+
+#search-form input {
+    float: left;
+}
+
+
+#search-form button {
+    border-radius: 1px;
+    color: #ffffff !important;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 5px 12px 8px;
+    overflow: hidden;
+    top: 0;
+    right: 0px;
+    position: absolute
+}
+
+#search-form input[type=submit]{
+     height: 30px;
+     width: 30px;
+     outline: none;
+     margin: 1px 10px 5px 10px;
+     padding: 0 7px;
+     font-family: 'Ubuntu';
+     border: 1px solid;
+     background-color: #e65100;
+     border-color: #e65100;
+     color: #ffffff !important;
+ }
+ 
+
+
+.inversion .mini #search-form input[type=submit]{
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    right: 4px;
+    background: url("images/wsearch.png") center center no-repeat;
+    background-size: contain;
+}
+
+.inversion .mini #search-form{
+    width: 70%;
+}
+
+.mini #search-form input[type=text]{
+    font-size: 14px;
+    padding: 4px 0px 4px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #777;
+    border: 1px solid #777;
+}
+
+.mini #search-form input[type=submit]{
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    right: 4px;
+    background: url("images/search.png") center center no-repeat;
+    background-size: contain;
+}
+
+.mini #search-form{
+    width: 70%;
+}
+
+
+.inversion .mini #search-form input[type=text]{
+    font-size: 14px;
+    padding: 4px 0px 4px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #FFF;
+}
+
+.clwhite #search-form input[type=submit]{
+    top: 2px;
+    right: 2px;
+}

@@ -1,0 +1,36 @@
+ul.bottom-menu {
+	list-style-type:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.bottom-menu li {
+    margin-bottom: 10px;
+}
+
+ul.bottom-menu li a {
+	font-family: 'Open Sans', sans-serif;
+        color: #777;
+	text-decoration:none;
+}
+
+/*ul.bottom-menu li a:visited {
+	color:#BC262C;
+}*/
+
+ul.bottom-menu li a:hover {
+    color: #3395d7;
+    text-decoration: underline;
+}
+
+
+ul.bottom-menu li a.selected:link, 
+ul.bottom-menu li a.selected:visited, 
+ul.bottom-menu li a.selected:active, 
+ul.bottom-menu li a.selected:hover
+{
+	color:#FC8D3D;
+}
+
+

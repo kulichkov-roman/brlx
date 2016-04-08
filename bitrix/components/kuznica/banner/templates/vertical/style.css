@@ -1,0 +1,9 @@
+ul.rklite-banners-v{
+	padding: 0;
+	margin: 0;
+}
+ul.rklite-banners-v li{
+	display:block;
+	float: none;
+	list-style: none;
+}

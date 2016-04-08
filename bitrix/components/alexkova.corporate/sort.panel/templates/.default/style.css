@@ -1,0 +1,141 @@
+/** панель сортировки **/
+.emarket-sort-panel{
+    background: #E8E8E8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #FFFFFF 0%, #E8E8E8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #FFFFFF 0%,#E8E8E8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #FFFFFF 0%,#E8E8E8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #FFFFFF 0%,#E8E8E8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #FFFFFF 0%,#E8E8E8 100%); /* W3C */
+    border: 1px solid #eeeeee;
+    margin-bottom: 20px;
+}
+
+.emarket-sort-panel .emarket-sort-panel-buttons{
+    margin: 5px;
+    float: left;
+}
+
+.emarket-sort-panel .emarket-sort-panel-buttons > a{
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    font-size: 14px;
+    color: #777;
+    margin-right: 10px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.emarket-sort-panel .emarket-sort-panel-buttons > a.active{
+    background: #CCC; /* Old browsers */
+    background: url(images/sort-order-asc.png) right center no-repeat, -moz-linear-gradient(top,  #FFFFFF 0%, #CCC 100%); /* FF3.6+ */
+    background: url(images/sort-order-asc.png) right center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCC), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
+    background: url(images/sort-order-asc.png) right center no-repeat, -webkit-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Chrome10+,Safari5.1+ */
+    background: url(images/sort-order-asc.png) right center no-repeat, -o-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Opera 11.10+ */
+    background: url(images/sort-order-asc.png) right center no-repeat, -ms-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* IE10+ */
+    background: url(images/sort-order-asc.png) right center no-repeat, linear-gradient(to bottom,  #FFFFFF 0%,#CCC 100%); /* W3C */
+    padding: 10px 20px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.emarket-sort-panel .emarket-sort-panel-buttons > a.active.desc{
+    background: #CCC; /* Old browsers */
+    background: url(images/sort-order-desc.png) right center no-repeat, -moz-linear-gradient(top,  #FFFFFF 0%, #CCC 100%); /* FF3.6+ */
+    background: url(images/sort-order-desc.png) right center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCC), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
+    background: url(images/sort-order-desc.png) right center no-repeat, -webkit-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Chrome10+,Safari5.1+ */
+    background: url(images/sort-order-desc.png) right center no-repeat, -o-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Opera 11.10+ */
+    background: url(images/sort-order-desc.png) right center no-repeat, -ms-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* IE10+ */
+    background: url(images/sort-order-desc.png) right center no-repeat, linear-gradient(to bottom,  #FFFFFF 0%,#CCC 100%); /* W3C */
+}
+
+.emarket-sort-panel .emarket-sort-panel-view{
+    margin: 7px 10px;
+    float: right;
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a{
+    background: #CCC; /* Old browsers */
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 5px 0;
+    float: left;
+    margin-left: 5px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a.active{
+    background: #CCC; /* Old browsers */
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    background: url(images/view-model.png) 7px -7px no-repeat;
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    float: left;
+    margin-left: 5px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a.present-plitka{
+    background-position: -5px -3px;
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a.present-list{
+    background-position: -44px -2px; /*43px;*/
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a.present-table{
+    background-position: -88px -2px;
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a.present-plitka.active{
+    background: #CCC; /* Old browsers */
+    background: url(images/view-model.png) -2px -43px no-repeat, -moz-linear-gradient(top,  #FFFFFF 0%, #CCC 100%); /* FF3.6+ */
+    background: url(images/view-model.png) -2px -43px no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCC), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
+    background: url(images/view-model.png) -2px -43px no-repeat, -webkit-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Chrome10+,Safari5.1+ */
+    background: url(images/view-model.png) -2px -43px no-repeat, -o-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Opera 11.10+ */
+    background: url(images/view-model.png) -2px -43px no-repeat, -ms-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* IE10+ */
+    background: url(images/view-model.png) -2px -43px no-repeat, linear-gradient(to bottom,  #FFFFFF 0%,#CCC 100%); /* W3C */
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a.present-list.active{
+    background: #CCC; /* Old browsers */
+    background: url(images/view-model.png) -41px -43px no-repeat, -moz-linear-gradient(top,  #FFFFFF 0%, #CCC 100%); /* FF3.6+ */
+    background: url(images/view-model.png) -41px -43px no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCC), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
+    background: url(images/view-model.png) -41px -43px no-repeat, -webkit-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Chrome10+,Safari5.1+ */
+    background: url(images/view-model.png) -41px -43px no-repeat, -o-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Opera 11.10+ */
+    background: url(images/view-model.png) -41px -43px no-repeat, -ms-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* IE10+ */
+    background: url(images/view-model.png) -41px -43px no-repeat, linear-gradient(to bottom,  #FFFFFF 0%,#CCC 100%); /* W3C */
+}
+
+.emarket-sort-panel .emarket-sort-panel-view >a.present-table.active{
+    background: #CCC; /* Old browsers */
+    background: url(images/view-model.png) -82px -43px no-repeat, -moz-linear-gradient(top,  #FFFFFF 0%, #CCC 100%); /* FF3.6+ */
+    background: url(images/view-model.png) -82px -43px no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCC), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
+    background: url(images/view-model.png) -82px -43px no-repeat, -webkit-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Chrome10+,Safari5.1+ */
+    background: url(images/view-model.png) -82px -43px no-repeat, -o-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* Opera 11.10+ */
+    background: url(images/view-model.png) -82px -43px no-repeat, -ms-linear-gradient(top,  #FFFFFF 0%,#CCC 100%); /* IE10+ */
+    background: url(images/view-model.png) -82px -43px no-repeat, linear-gradient(to bottom,  #FFFFFF 0%,#CCC 100%); /* W3C */
+}
+
+/******color ****/
+

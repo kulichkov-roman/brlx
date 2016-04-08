@@ -1,0 +1,172 @@
+/*********** Slick slider **************/
+.nopadding {
+   padding: 0 !important;
+}
+
+.v-slick-conteiner {
+    //display: none;
+    min-height: 366px;
+    visibility: hidden;
+}
+
+.hover_button > button,  .hover_button  > ul{
+    display: none !important;
+}
+
+.hover_button:hover > button,  .hover_button:hover  > ul{
+    display: block !important;
+}
+
+.v-slick-conteiner .slick-slide {
+    height: 366px;
+}
+
+.v-slick-conteiner .slick-list, .v-slick-conteiner.slick-track, .v-slick-conteiner .slick-slide div  {
+    height: 100%;
+}
+
+.v-slick-conteiner img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.v-slick-conteiner .right img{
+    //left: 0;
+}
+
+.v-slick-conteiner.v-big_button > button {
+    height: 80px;
+    width: 60px;
+}
+
+.v-slick-conteiner .right .slick-banner-content {
+    float: right;
+}
+
+.v-slick-conteiner .slick-slide {
+    margin: 0px;
+}
+
+.v-slick-conteiner .slick-slide > div > a:hover{
+    text-decoration: none;
+}
+
+.v-slick-conteiner .slick-banner-content h1{
+    margin-top: 80px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.v-slick-conteiner .slick-banner-content p{
+    font-size: 18px;
+}
+
+.v-slick-conteiner .slick-banner-content .modern-card-buttons {
+    float: left;
+    height: auto;
+}
+
+.v-slick-conteiner .slick-banner-content .modern-card-buttons a,
+.v-slick-conteiner .slick-banner-content .modern-card-buttons span{
+    margin: 0 10px 10px 0;
+}
+
+.v-slick-conteiner .slick-buttons {
+    padding-top: 20px;
+    height: auto !important;
+}
+
+.v-slick-conteiner .slick-banner-container .full-width .slick-prev {
+    left: 30px;
+}
+
+.v-slick-conteiner .slick-banner-container .slick-next {
+    right: 15px;
+}
+
+.v-slick-conteiner .slick-prev, .v-slick-conteiner .slick-next {
+    margin-top: -40px;
+}
+/*
+.v-slick-conteiner .slick-prev:before,  .v-slick-conteiner .slick-next:before{
+    position: relative;
+    font-size: 20px;
+    font-family: 'Glyphicons Halflings';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.v-slick-conteiner .slick-prev:before {
+    content: "\e079";
+}
+
+.v-slick-conteiner .slick-next:before{
+    content: "\e080";
+}*/
+
+.v-slick-conteiner .slick-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -78px;
+}
+
+.v-slick-conteiner .slick-dots li{
+   float: left;
+   list-style: none;
+   margin: 0;
+   margin-left: 10px;
+   padding: 0;
+}
+.v-slick-conteiner .slick-dots li button {
+  background: url(/bitrix/templates/white_fullscreen_river/css/../assets/bullet.png) no-Repeat top left;
+  width: 20px;
+  height: 20px;
+  margin-right: 0px;
+  float: left;
+  margin-top: 0px;
+  box-shadow: none;
+  border: none;
+  font-size: 0;
+}
+.v-slick-conteiner .slick-dots li.slick-active button{
+    background-position: bottom left;
+}
+.button-heder2-slider {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 20px;
+    //min-width: 150px;
+    display: block;
+    text-align: center;
+    font-weight: normal;
+}
+
+.button-heder2-slider:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .v-slick-conteiner .slick-banner-content {
+        margin: 0 auto;
+        float: none !important;
+    }
+    
+    .v-slick-conteiner .slick-banner-content p{
+        margin-top: 20px;
+    }
+    
+    .v-slick-conteiner .slick-buttons {
+        padding-top: 15px;
+    }
+}
+/********* End Slick slider ************/

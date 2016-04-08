@@ -1,0 +1,209 @@
+/******** top-menu ********/
+.clwhite{
+    background: #FFF;
+}
+
+.compound-clwhite ul.top-menu-light{
+    background: #FFF;
+}
+
+.top-menu-light{
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0; margin: 0;
+    margin-left: -15px;
+
+}
+
+
+ul.top-menu-light ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+ul.top-menu-light li{
+    display: block;
+    float: left;
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    background: transparent;
+
+}
+
+ul.top-menu-light > li > a, .dark-light.inversion ul.top-menu-light > li > a,
+.dark-light ul.top-menu-light > li > a{
+    color: #333;
+}
+
+ul.top-menu-light > li.selected a, .dark-light.inversion ul.top-menu-light > li.selected a{
+    color: #FFF;
+}
+
+ul.top-menu-light li a:hover{
+    color: #f8f8f8;
+}
+
+ul.top-menu-light > li:hover > a{
+    text-decoration: underline;
+    color: #333;
+}
+
+ul.top-menu-light > li.first{
+    border-left: 1px transparent;
+    /*-webkit-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 0px 4px;*/
+}
+
+.top-menu-light.full-screen li.first{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.top-menu-light li.last, #flex-menu-li{
+    /*border-right: 1px transparent;
+  -webkit-border-radius: 0px 4px 4px 0px;
+   -moz-border-radius: 0px 4px 4px 0px;
+   border-radius: 0px 4px 4px 0px;*/
+}
+
+ul.top-menu-light > li > a{
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+ul.top-menu-light > li > ul{
+    border-top: 1px solid  rgba(255,255,255,0.5);
+    background: rgba(0,0,0,0.8);
+    display: none;
+    min-width: 100%;
+    min-width: 200px;
+    padding: 0;
+    position: absolute;
+    left: 0; top: 40px;
+    z-index: 1100;
+
+    border-top: 2px solid #CCC;
+}
+
+ul.top-menu-light > li > ul:before{
+    content: '';
+    position: absolute;
+    left: 38px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #CCC;
+}
+
+ul.top-menu-light > li > ul > li > ul{
+    display: none;
+    position: absolute;
+    left: 99%;
+    width: 100%;
+    top: 0;
+    z-index: 1200;
+    background: rgba(0,0,0,0.8);
+}
+
+ul.top-menu-light > li:hover > ul, ul.top-menu-light > li > ul > li:hover > ul{
+    display: block;
+    -webkit-animation:submenu_view 400ms;
+    animation:submenu_view 400ms;
+}
+
+ul.top-menu-light > li > a.sub-item{
+    padding-right: 40px;
+    background: url(images/buttons/ico-dark-arrow-down.png) no-repeat right center;
+}
+
+ul.top-menu-light > li.selected > a.sub-item
+,ul.top-menu-light > li:hover > a.sub-item{
+    background: url(images/buttons/ico-arrow-down.png) no-repeat right center;
+}
+
+ul.top-menu-light > li.first > ul{
+    left: -10px;
+}
+
+
+ul.top-menu-light > li.last > ul{
+    right: 0px;
+    left: auto;
+}
+
+ul.top-menu-light > li > ul li{
+    width: 100%;
+}
+
+
+ul.top-menu-light > li > ul li > a{
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding: 10px 30px 10px 20px;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-top: none;
+    white-space: nowrap;
+}
+
+ul.top-menu-light > li > ul li > a.sub-item{
+    padding-right: 40px;
+    background: url(images/buttons/ico-arrow-right.png) no-repeat right center;
+}
+
+
+ul.top-menu-light > li > ul li > a:hover{
+    background: rgba(0,0,0,0.5);
+    text-decoration: underline;
+}
+
+
+#flex-menu-li > a{
+    background: url(images/buttons/button_menu_dark.png) no-repeat center center;
+}
+
+#flex-menu-li > a:hover{
+    background: url(images/buttons/button_menu_dark_hover.png) no-repeat center center;
+}
+
+ul.top-menu-light > li.last > ul:before{
+    right: 20px;
+    left: auto;
+}
+
+
+@-webkit-keyframes submenu_view {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes submenu_view {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/******** end top-menu ********/

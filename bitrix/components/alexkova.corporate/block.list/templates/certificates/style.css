@@ -1,0 +1,136 @@
+a {
+    cursor: pointer;
+}
+
+.gray {
+
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.box-shadow {
+    /*    box-shadow: 0px 4px 0px 0px #a8a8a8;*/
+}
+
+.element-card {
+    display: block;
+    width: 100%;
+    min-height: 164px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 4px 0px 0px #a8a8a8;
+    background-color: #fff;
+}
+
+.element-card:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 0px #a8a8a8;
+}
+
+.element-card:hover .small-card-title {
+    /*text-decoration: underline;*/
+    color: #a8a8a8;
+}
+
+.small-card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: normal;
+    color: #262727;
+}
+
+.classic-small-card .small-card-title{
+    font-weight: bold;
+}
+
+.classic-small-card, .classic {
+    border: 1px solid #dbdbdb;
+    background: #fff;
+}
+
+.classic-small-card .small-card-text, .card-text {
+    margin-top: 22px;
+    color: #565656;
+}
+
+.flat-small-card .small-card-title {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 14px 20px;
+}
+
+.classic, .background, .flat {
+    padding: 0;
+}
+
+.flat {
+    background: #a8a8a8;
+}
+
+.flat:hover {
+    background: #f1f5f8;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    background: #a8a8a8;
+    display: block;
+    border-bottom: 1px solid  #a8a8a8;
+    color: #fff;
+}
+
+.flat .card-title {
+    background: none;
+    border-bottom: 1px solid  #fff;
+}
+
+.classic:hover .card-title, .background:hover .card-title {
+    background: #fff;
+    color: #262727;
+    text-decoration: none;
+}
+
+.flat:hover .card-title {
+    color: #414141;
+    border-bottom: 1px solid #414141;
+}
+
+.flat:hover .card-text {
+    color: #565656;
+}
+
+.flat:hover .more-link {
+    color: #565656;
+}
+
+.card-text {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.flat .card-text, .flat .more-link {
+    color: #fff;
+}
+
+.more-link {
+    float: right;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+    color: #272727;
+}
+
+.more-link:hover {
+    color: #a8a8a8;
+}

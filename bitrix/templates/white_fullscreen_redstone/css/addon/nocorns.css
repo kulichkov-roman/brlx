@@ -1,0 +1,15 @@
+.color-button,
+.color-icon-button,
+.tp-leftarrow.default,
+.tp-rightarrow.default,
+.element-card.rounded,
+ul.top-menu > li.first, ul.top-menu > li.last, #flex-menu-li,
+.emarket-sort-panel  .emarket-sort-panel-buttons > a,
+.rounded,
+.emarket-sort-panel .emarket-sort-panel-view >a.present-list.active,
+.rounded
+{
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: 0;
+}

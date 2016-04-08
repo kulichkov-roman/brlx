@@ -1,0 +1,1065 @@
+a {
+    cursor: pointer;
+}
+
+.gray {
+
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.img-square {
+    border-radius: 0;
+}
+
+.box-shadow {
+    /*    box-shadow: 0px 4px 0px 0px #a8a8a8;*/
+}
+
+.element-card {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 4px 0px 0px #a8a8a8;
+    background-color: #fff;
+}
+
+.element-card:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 0px #a8a8a8;
+}
+
+.element-card:hover .small-card-title {
+    //text-decoration: underline;
+    color: #a8a8a8;
+}
+
+/*******sale - cart *******/
+.sale-card, .sale-card-list{
+    display: inline-block;
+    width: 100%;
+    min-height: 164px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 4px 0px 0px #a8a8a8;
+    background-color: #fff;
+    border: 1px solid #a8a8a8;
+}
+
+.sale-card:hover, .sale-card-list:hover{
+    box-shadow: none;
+}
+
+.sale-card .sale-card-image {
+    width: 100%;
+    height: 178px;
+    line-height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+.sale-card .sale-card-image img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.emarket-average-label-area{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    right: 12px;
+    width: 40px;
+    background: none;
+}
+
+.emarket-average-label-area .emarket-label{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background: url(images/icon-sale-average.png) no-repeat;
+    margin-top: -20px;
+    left: 10px;
+    top: 30px;
+}
+
+.emarket-average-label-area .emarket-label-soffer{
+    background-position: 0px 0;
+}
+
+.emarket-average-label-area .emarket-label-sale{
+    background-position: -160px 0;
+}
+
+.emarket-average-label-area .emarket-label-new{
+    background-position: -40px 0;
+}
+
+.emarket-average-label-area .emarket-label-hit{
+    background-position: -80px 0;
+}
+
+.emarket-average-label-area .emarket-label-rec{
+    background-position: -120px 0;
+}
+
+.emarket-little-label-area{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 30px;
+    background: none;
+}
+
+.emarket-little-label-area .emarket-label{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background: url(images/icon-sale-little.png) no-repeat;
+    float: right;
+    margin-right: -10px;
+}
+
+.emarket-little-label-area .emarket-label-soffer{
+    background-position: 0px 0;
+}
+
+.emarket-little-label-area .emarket-label-sale{
+    background-position: -120px 0;
+}
+
+.emarket-little-label-area .emarket-label-new{
+    background-position: -60px 0;
+}
+
+.emarket-little-label-area .emarket-label-hit{
+    background-position: -30px 0;
+}
+
+.emarket-little-label-area .emarket-label-rec{
+    background-position: -90px 0;
+}
+
+.emarket-big-label-area{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 52px;
+    background: none;
+}
+
+.emarket-big-label-area .emarket-label{
+    width: 53px;
+    height: 53px;
+    margin-bottom: 10px;
+    background: url(images/icon-sale-big.png) no-repeat;
+}
+
+.sale-cart .emarket-label{
+    margin-bottom: -15px;
+}
+
+.emarket-big-label-area .emarket-label-soffer{
+    background-position: 0px 0;
+}
+
+.emarket-big-label-area .emarket-label-sale{
+    background-position: -212px 0;
+}
+
+.emarket-big-label-area .emarket-label-new{
+    background-position: -53px 0;
+}
+
+.emarket-big-label-area .emarket-label-hit{
+    background-position: -106px 0;
+}
+
+.emarket-big-label-area .emarket-label-rec{
+    background-position: -159px 0;
+}
+
+
+.sale-card .sale-card-name span{
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.sale-card .sale-card-price-line,
+.sale-card-list .sale-card-price-line,
+.sale-card-table .sale-card-price-line{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sale-card-list .card-title:hover{
+    color: #FFF;
+}
+
+.sale-card-list .sale-card-price-line{
+    margin-top: 10px;
+    max-width: 200px;
+    float: left;
+}
+
+.sale-card .sale-card-old-price,
+.sale-card-list .sale-card-old-price,
+.sale-card-table .sale-card-old-price{
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.sale-card .sale-card-operation{
+    text-align: center;
+}
+.sale-card .sale-card-operation a{
+    display: inline-block;
+}
+
+.sale-card-list .card-image{
+    text-align: center;
+    padding: 10px;
+}
+
+.sale-card-list .card-image img{
+    max-width: 100%;
+}
+
+.sale-card-list .card-text{
+    margin-top: 15px;
+    padding: 0;
+}
+
+.sale-card-list .card-text .card-title{
+    padding: 10px;
+    background: none;
+    padding-bottom: 5px;
+    color: #777;
+}
+
+
+.sale-card-list .card-text .card-preview-text{
+    font-size: 90%;
+    padding: 15px 10px 20px 10px;
+    border-bottom: 1px solid #EEE;
+}
+
+.sale-card-list .card-operation{
+    margin-left: 20px;
+}
+
+.sale-card-table td{
+    padding: 5px 10px;
+}
+
+.sale-card-table tr{
+    border: 1px solid #f8f8f8;
+}
+
+.sale-card-table tr:hover{
+    background: #f8f8f8
+}
+
+.sale-card-table .ico{
+    text-align: center;
+    vertical-align: middle;
+    width: 80px;
+}
+
+.sale-card-table .ico img{
+    max-width: 50px;
+    max-height: 50px;
+    border: 1px solid #CCC;
+    margin: 5px;
+}
+
+.sale-card-table .details{
+    position: relative;
+}
+
+
+.sale-card-table .operation{
+    width: 150px;
+}
+
+.sale-card-table .price{
+    width: 150px;
+}
+
+.sale-card-table .emarket-little-label-area{
+    top: 15px;
+}
+
+.element-file-card{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.element-file-card{
+    float: left;
+}
+
+.element-file-card a span{
+    display: block;
+    float: left;
+    background: url(images/file-icon.jpg) no-repeat;
+    width: 38px;
+    height: 50px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.element-file-card a span:after{
+    content: "file";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: #555;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+}
+
+.element-file-card.rar a span:after{content: "rar";}
+.element-file-card.pdf a span:after{content: "pdf";}
+.element-file-card.doc a span:after{content: "doc";}
+.element-file-card.docx a span:after{content: "docx";}
+.element-file-card.xls a span:after{content: "xls";}
+.element-file-card.xlsx a span:after{content: "xlsx";}
+
+/****modern card vertical*******/
+
+.modern-card-vertical {
+    width: 100%;
+    display: inline-block;
+    padding: 17px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #a8a8a8;
+    box-shadow: 0px 4px 0px 0px #a8a8a8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #777;
+}
+
+.modern-card-vertical.no-border {
+    border: 0;
+    box-shadow: 0px 0px 0px;
+}
+
+.modern-card-vertical:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 0px #a8a8a8;
+}
+
+.modern-card-vertical a {
+    color: #777;
+}
+
+.modern-card-image {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+}
+
+.modern-card-image img,.modern-card-image span {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.modern-card-image img {
+    display: inline !important;
+}
+
+.modern-card-image span {
+    vertical-align: middle;
+}
+
+.modern-card-vertical.white.no-border {
+    padding: 0;
+}
+
+.modern-card-vertical.dark {
+    background-color: #777;
+    color: #fff;
+}
+
+.modern-card-vertical.dark a {
+    color: #fff;
+}
+
+.modern-card-vertical.transparent {
+    background-color: transparent;
+    color: #fff;
+}
+
+.modern-card-vertical.transparent a {
+    color: #fff;
+}
+
+.modern-card-image {
+    background-color: #777;
+}
+
+.modern-card-vertical.image-white .modern-card-image {
+    background-color: #fff;
+}
+
+.modern-card-vertical.image-dark .modern-card-image {
+    background-color: #777;
+}
+
+.modern-card-vertical.image-transparent .modern-card-image {
+    background-color: transparent;
+}
+
+.modern-card-image span {
+    color: #fff;
+}
+
+.modern-card-vertical.glyph-white .modern-card-image  {
+    background-color: #fff;
+}
+
+.modern-card-vertical.glyph-white .modern-card-image span  {
+    color: #777;
+}
+
+.modern-card-vertical.glyph-transparent .modern-card-image {
+    background-color: transparent;
+}
+
+.modern-card-vertical.glyph-transparent .modern-card-image span {
+    color: #fff;
+}
+
+.modern-card-vertical.border-white .modern-card-image{
+    border: 4px solid #fff;
+}
+
+.modern-card-vertical.border-dark .modern-card-image {
+    border: 4px solid #777;
+}
+
+.modern-card-name {
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-weight: normal;
+}
+
+.modern-card-text {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+    font-weight: 300;
+}
+
+.modern-card-vertical.content-left, .modern-card-vertical.content-left .modern-card-image {
+    text-align: left;
+}
+
+.modern-card-vertical.content-right, .modern-card-vertical.content-right .modern-card-image {
+    text-align: right;
+}
+
+.modern-card-vertical .color-button {
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3);
+    text-decoration: none;
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding: 7px 37px;
+    border: 1px solid #fff;
+    //background: #777;
+    color: #fff;
+}
+
+/*.modern-card-vertical .modern-card-buttons a{
+    color: #fff;
+}*/
+
+.modern-card-vertical .color-button:hover {
+    background: #fff;
+    //color: #777;
+    text-decoration: none;
+    box-shadow: 0 0 0;
+    border: 1px solid #777;
+}
+
+.modern-card-vertical a.color-button.white-button {
+    //color: #777;
+    background: #fff;
+    border: 1px solid #777;
+    box-shadow: 0 0 0;
+}
+
+.modern-card-vertical .color-button.white-button:hover {
+    //background: #777;
+   // color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 0;
+    border: 1px solid #fff;
+}
+
+/****modern card horizontal*******/
+
+.modern-card-horizontal {
+    width: 100%;
+    display: inline-block;
+    padding: 17px;
+    position: relative;
+    text-align: left;
+    border: 1px solid #a8a8a8;
+    box-shadow: 0px 4px 0px 0px #a8a8a8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.modern-card-horizontal.no-border {
+    border: 0;
+    box-shadow: 0px 0px 0px;
+}
+
+.modern-card-horizontal.white.no-border {
+    padding: 0;
+}
+
+.modern-card-horizontal:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 0px #a8a8a8;
+}
+
+.modern-card-horizontal a {
+    color: #777;
+}
+
+.modern-card-horizontal.dark {
+    background-color: #777;
+    color: #fff;
+}
+
+.modern-card-horizontal.dark .modern-card-horizontal-image, .modern-card-horizontal.transparent .modern-card-horizontal-image{
+    background-color: #fff;
+}
+
+.modern-card-horizontal.transparent {
+    background-color: transparent;
+    color: #fff;
+}
+
+.modern-card-horizontal.dark .modern-card-horizontal-name a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.modern-card-horizontal.dark .modern-card-horizontal-name a:hover {
+    text-decoration: underline;
+}
+
+.modern-card-horizontal.transparent a {
+    color: #fff !important;
+}
+
+.modern-card-horizontal-image {
+    max-width: 100%;
+    max-height: 100%;
+    float:left;
+    text-align: center;
+    overflow: hidden;
+}
+
+.modern-card-horizontal-image img {
+    display: inline-block;
+}
+
+.modern-card-horizontal-image span {
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.modern-card-horizontal.image-white .modern-card-horizontal-image {
+    background-color: #fff;
+}
+
+.modern-card-horizontal.image-dark .modern-card-horizontal-image {
+    background-color: #777;
+}
+
+.modern-card-horizontal.image-transparent .modern-card-horizontal-image {
+    background-color: transparent;
+}
+
+.modern-card-horizontal.glyph-dark .modern-card-horizontal-image  {
+    background-color: #777;
+}
+
+.modern-card-horizontal.glyph-dark .modern-card-horizontal-image span  {
+    color: #fff;
+}
+
+.modern-card-horizontal.glyph-white .modern-card-horizontal-image  {
+    background-color: #fff;
+}
+
+.modern-card-horizontal.glyph-white .modern-card-horizontal-image span  {
+    color: #777;
+}
+
+.modern-card-horizontal.glyph-transparent .modern-card-horizontal-image {
+    background-color: transparent;
+}
+
+.modern-card-horizontal.glyph-transparent .modern-card-horizontal-image span {
+    color: #fff;
+}
+
+.modern-card-horizontal.border-white .modern-card-horizontal-image{
+    border: 4px solid #fff;
+}
+
+.modern-card-horizontal.border-dark .modern-card-horizontal-image{
+    border: 4px solid #777;
+}
+
+.modern-card-right-part {
+    float:right;
+    padding-left:16px;
+}
+
+.modern-card-horizontal-name {
+    display: inline-block;
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: normal;
+}
+
+.modern-card-horizontal hr {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.modern-card-horizontal-text, .modern-card-horizontal-links {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.modern-card-horizontal-text {
+    margin-bottom: 5px;
+}
+
+.modern-card-horizontal-links {
+    margin-bottom: 32px;
+}
+
+.modern-card-horizontal-links a{
+    color: #1c81c4;
+}
+
+.modern-card-horizontal .color-button {
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3);
+    text-decoration: none;
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float:left;
+    padding: 7px 37px;
+    border: 1px solid transparent;
+    //background: #777;
+}
+
+.modern-card-horizontal-buttons a{
+    color: #fff;
+}
+
+.modern-card-horizontal-buttons a.white-button{
+    color: #777;
+}
+
+.modern-card-horizontal .color-button.white-button {
+    background: #fff;
+    border: 1px solid #777;
+    box-shadow: 0 0 0;
+}
+
+.modern-card-horizontal.dark .color-button {
+    //background: #fff;
+    border: 1px solid #fff;
+}
+
+.modern-card-horizontal.dark .color-button:hover {
+    border: 1px solid #fff;
+    //color:#fff !important;
+}
+
+.modern-card-horizontal .color-button:hover {
+    background: #fff;
+    //color: #777;
+    text-decoration: none;
+    box-shadow: 0 0 0;
+    border: 1px solid #777;
+}
+
+.modern-card-horizontal .color-button.white-button:hover {
+    background: #777;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 0;
+    border: 1px solid #fff;
+}
+
+/*********CLASSIC CARD*********/
+
+.classic-card {
+    margin-top: 5px;
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    padding: 0;
+    border: 1px solid #a8a8a8;
+    border-radius: 5px !important;
+}
+
+.classic-card.no-border {
+    border: 0;
+    box-shadow: 0 0 0;
+}
+
+.classic-card-date {
+    font-family: Arial, serif;
+    font-size: 12px;
+    color:#777;
+    text-align: left;
+    padding-left: 19px;
+    margin-top: 6px;
+}
+
+.classic-card .classic-card-name {
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 19px 19px 0px 19px;
+    line-height: 1.1;
+    border-radius: 4px 4px 0 0;
+}
+
+.classic-card.card-name-line:hover .classic-card-name {
+    background-color: #fff;
+}
+
+.classic-card.card-name-line:hover .classic-card-name a{
+    color: #404040;
+}
+
+.classic-card.dark {
+    background-color: #777;
+    color: #fff;
+    box-shadow: 0 0 0;
+    border: 0;
+}
+
+.classic-card.dark:hover .classic-card-name a{
+    text-decoration: underline;
+}
+
+.classic-card.dark.card-name-line:hover .classic-card-name a{
+    text-decoration: none;
+    color: #404040;
+}
+
+.classic-card.dark:hover, 
+.classic-card.card-name-line.dark:hover .classic-card-name,
+.classic-card.card-name-line.dark:hover .classic-card-text,
+.classic-card.card-name-line.dark:hover .classic-card-link
+{
+    background-color: #f1f5f8;
+}
+
+.classic-card.card-name-line.dark:hover .classic-card-name,
+.classic-card.card-name-line.dark:hover .classic-card-text
+{
+    color:#404040;
+}
+
+.classic-card.card-name-line.dark:hover .classic-card-link
+{
+    border-radius: 0 0 4px 4px;
+}
+
+.classic-card.card-name-line .classic-card-name {
+    background: #777;
+    border-bottom: 1px solid #777;
+    padding-bottom: 24px;
+}
+
+.classic-card.dark.card-name-line .classic-card-name {
+    border-bottom: 1px solid #fff;
+}
+
+.classic-card.card-name-line .classic-card-name a{
+    color: #fff;
+}
+
+.classic-card .classic-card-name a {
+    color: #404040;
+}
+
+.classic-card.dark .classic-card-name a {
+    color: #fff;
+}
+
+.classic-card .classic-card-text {
+    padding: 17px 19px 10px 19px;
+} 
+
+.classic-card .classic-card-link {
+    text-align:right;
+    padding: 10px 19px 14px 19px;
+}
+
+.classic-card .classic-card-link a{
+    text-decoration: underline;
+    color:#777;
+}
+
+.classic-card.dark .classic-card-link a{
+    color: #fff;
+}
+
+.classic-card.dark:hover .classic-card-link a{
+    color: #fff;
+}
+
+/******CLASSIC IMAGE******/
+
+.classic-image-card {
+    margin-top: 14px;
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 0 0;
+    border-radius: 5px !important;
+}
+
+.classic-image-card:hover {
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.classic-image-card.no-border {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px;
+}
+
+.classic-image-image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.classic-image-card .classic-image-image img {
+    display: inline-block;
+    max-height: 300px;
+}
+
+.classic-image-card .classic-image-name {
+    display: none;
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 19px 13px 19px;
+    line-height: 1.1;
+    text-align: left;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom:0px;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    box-shadow: 0px 4px 0px 0px #a8a8a8;
+}
+
+.classic-image-card:hover .classic-image-name {
+    box-shadow: 0px 0px 0px;
+}
+
+.classic-image-card .classic-image-name a{
+    color: #fff;
+}
+
+.classic-image-card.show-name {
+    min-height: 100px;
+}
+
+.classic-image-card.show-name .classic-image-name {
+    display: block;
+}
+
+.classic-image.show-name:hover {
+    border: 1px solid #dcdcdc;
+}
+
+.classic-image-card.show-name-part .classic-image-name {
+    display: block;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.classic-image-card.show-name-part .classic-image-name a{
+    color: #fff;
+}
+
+.classic-image-card.show-name-part:hover {
+    border: 1px solid #dcdcdc;
+    color: #fff;
+}
+
+.classic-image-card.show-name-part:hover .classic-image-name {
+    background: #fff;
+}
+
+.classic-image-card.show-name-part:hover .classic-image-name a{
+    color: #414141;
+}
+
+.classic-image-card.show-name-part.action {
+    box-shadow: 0 0 0;
+}
+
+.classic-image-card.show-name-part.action .classic-image-image{
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.classic-image-card.show-name-part.action .classic-image-name{
+    bottom: 2px;
+    border-top: 1px solid #dcdcdc;
+    text-align: left;
+    background: #fff;
+}
+
+.classic-image-card.show-name-part.action .classic-image-name a{
+    font-weight: normal;
+    font-size: 16px;
+    color:#414141;
+}
+
+.classic-image-card.show-name-part.action:hover .classic-image-name a{
+    color: #3395d7;
+    text-decoration: underline;
+}
+
+.classic-image-card.show-name-part.no-border .classic-image-name {
+    box-shadow: 0 0 0;
+}
+
+.classic-image-card.show-name-part.action .classic-image-image{
+    border-top: 0;
+}
+
+/****GLYPH_LINKS*****/
+
+.glyph-links {
+    margin-bottom: 10px;
+}
+
+.glyph-links a {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+}
+
+.glyph-links a:hover {
+    text-decoration: none;
+}
+
+.glyph-links .glyph-links-image {
+    float: left;
+    font-size: 20px;
+    color: #2f8dcc;
+}
+
+.glyph-links .glyph-links-image span {
+    top: 0;
+}
+
+.glyph-links .glyph-links-name {
+    padding-left: 34px;
+}
+
+.glyph-links:hover .glyph-links-name {
+    color: #3395d7;
+    text-decoration: underline;
+}
+
+.glyph-links-date {
+    display: inline-block;
+    font-family: Arial, serif;
+    font-size: 12px;
+    color:#777;
+    text-align: left;
+    margin-bottom: 6px;
+    background: #EEE;
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+
+/*******VIDEO CARD*******/
+
+.video-card {
+    text-align: center;
+    margin-bottom: 14px; 
+    margin-top: 14px;
+}
+
+.video-card .video-img {
+    margin: 0 auto;
+}
+
+.video-card-name {
+    text-align: center;
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    color: #777;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+.video-card:hover .video-card-name{
+    color: #3395d7;
+    text-decoration: underline;
+}
+

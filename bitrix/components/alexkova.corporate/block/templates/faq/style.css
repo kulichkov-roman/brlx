@@ -1,0 +1,124 @@
+.extented-labels{
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: -60px;
+    font-size: 12px;
+}
+
+.extented-labels a{
+    border: 1px solid #CCC;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background: #F8F8F8;
+}
+
+.ax-element-slider {
+    border: 1px solid #CCC;
+}
+
+.ax-element-slider-main {
+    text-align: center;
+}
+
+.ax-element-slider-nav {
+    padding-left: 7px;
+    text-align: center;
+}
+
+.ax-element-slider-main .slick-list .slick-track a img {
+    margin: 20px auto;
+}
+
+.ax-element-slider-main .slick-next, .ax-element-slider-main .slick-prev {
+    /*top: 40% !important;*/
+}
+
+.ax-element-slider-nav .slick-list .slick-track .slick-slide {
+    text-align: center;
+    border: 2px solid #CCC;
+    cursor: pointer;
+    margin-right: 14px;
+    margin-bottom: 10px;
+}
+
+.ax-element-slider-nav .slick-list .slick-track .slick-slide .slide-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ax-element-slider-nav .slick-list .slick-track .slick-slide .slide-wrap img {
+    max-width: 90%;
+    max-height: 90%;
+    height: auto;
+    margin: 0 auto !important;
+}
+
+.slick-dots {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.slick-dots li {
+    float: left;
+    margin-right: 4px;
+}
+
+.slick-dots li button {
+    cursor: pointer;
+    position: relative;
+    /*background: url(images/bullet.png) no-Repeat top left;*/
+    width: 12px;
+    height: 12px;
+    border: none;
+    color: transparent;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.slick-dots li.slick-active button {
+    background: #414141;
+}
+
+.slick-next {
+    right: 20px !important;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.ax-element-slider-nav .slick-prev, .ax-element-slider-nav .slick-next {
+    /*top: 30px !important;*/
+    margin-top: -40px;
+}
+
+.ax-element-slider-nav .slick-prev {
+    left: 10px !important;
+}
+
+.ax-element-slider-nav .slick-next {
+    right: 10px !important;
+}
+
+.params-list tr.light-gray{
+    background: #FFFFFF;
+}
+
+.params-list tr.dark-gray{
+    background: #F8F8F8;
+}
+
+.params-list td{
+    vertical-align: top;
+    vertical-align: top;
+    padding: 5px 10px;
+    font-size: 95%;
+}
+
+.params-list td.left{
+    text-align: left;
+    font-weight: bold;
+}

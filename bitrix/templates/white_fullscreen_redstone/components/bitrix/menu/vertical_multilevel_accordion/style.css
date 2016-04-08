@@ -1,0 +1,122 @@
+#accordion-multilevel-menu,#accordion-multilevel-menu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*Links*/
+#accordion-multilevel-menu a, #accordion-multilevel-menu li a.root-item 
+{
+    display:block;
+    padding:16px 0px 16px 20px;
+    text-decoration:none;
+    text-align:left;
+    /*font-weight: normal;*/
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+#accordion-multilevel-menu li.parent-item>a {
+    margin-right: 40px;
+}
+
+#accordion-multilevel-menu a {
+    padding: 16px 0px 16px 20px;
+}
+
+#accordion-multilevel-menu li:hover>a, #accordion-multilevel-menu a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#accordion-multilevel-menu li 
+{
+    cursor: pointer;
+    border-bottom: 1px solid #ededed;
+    width: 100%;
+}
+
+#accordion-multilevel-menu li:hover a.root-item, #accordion-multilevel-menu li.jshover a.root-item 
+{
+    /*color: #fff;*/
+    text-decoration: none;
+}
+
+#accordion-multilevel-menu>li {
+    background: #ededed;
+    margin-bottom: 4px;
+}
+
+#accordion-multilevel-menu li.item-selected, #accordion-multilevel-menu>li:hover {
+    background: #ededed;
+}
+
+#accordion-multilevel-menu>li:hover>a, #accordion-multilevel-menu li.item-selected>a {
+    color: #fff;
+}
+
+#accordion-multilevel-menu li a.root-item-selected {
+    /*font-weight: bold;*/
+    color: #fff;
+    text-decoration: none;
+}
+
+#accordion-multilevel-menu li.parent-item:before {
+    position: absolute;
+    right: 14px;
+    top: 16px;
+}
+
+#accordion-multilevel-menu li.item-selected:before, #accordion-multilevel-menu li.parent-item:hover:before {
+    color: #fff;
+}
+
+/*Sub-menu box*/
+#accordion-multilevel-menu li ul,
+#accordion-multilevel-menu li ul ul
+{
+    display: none;
+    border-top: 1px solid #e3eaef;
+    padding: 0;
+    margin: 0;
+}
+
+#accordion-multilevel-menu li.item-selected ul {
+    display: block;
+}
+
+/*Sub-menu item box*/
+#accordion-multilevel-menu>li li, #accordion-multilevel-menu>li li:hover 
+{
+    border: 1px solid #ededed;
+    margin-top: 4px;
+}
+
+#accordion-multilevel-menu>li li:last-child {
+    border-bottom: none;
+}
+
+#accordion-multilevel-menu li.jshover:before {
+    position: absolute;
+    right: 14px;
+    top: 16px;
+}
+
+#accordion-multilevel-menu li.item-selected>ul {
+    background: #fff;
+}
+
+#accordion-multilevel-menu li.jshover>ul 
+{
+    display:block;
+    background: #fff;
+}
+
+div.menu-clear-left
+{
+    clear:left;
+}

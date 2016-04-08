@@ -1,0 +1,111 @@
+/******  search line *****/
+
+#search-form{
+    position: relative;
+    overflow: hidden;
+    margin: 5px 0;
+    width: 100%;
+    float: right;
+}
+
+#search-form input[type=text]{
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    padding: 6px 0px 6px 10px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #777;
+    border-radius: 0;
+}
+
+.clwhite #search-form input[type=text]{
+    border: 1px solid #CCC;
+}
+
+.cldark #search-form,
+.cldarkcolor #search-form{
+    margin-top: 8px;
+}
+
+.clwhite #search-form{
+    margin-top: 7px;
+    /*margin-right: -20px;*/
+}
+
+.clwhite .inline-menu  #search-form
+{
+    margin-top: 3px;
+}
+
+.full-width .inline-menu  #search-form
+{
+    margin-right: -15px;
+}
+
+
+
+
+#search-form input[type=submit]{
+     width: 30px;
+     height: 30px;
+     right: -2px;
+     top: 1px;
+     right: 1px;
+     outline: none;
+     background: url("images/search-button.png") center center no-repeat;
+     border: none;
+     position: absolute;
+ }
+
+.inversion .mini #search-form input[type=submit]{
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    right: 4px;
+    background: url("images/wsearch.png") center center no-repeat;
+    background-size: contain;
+}
+
+.inversion .mini #search-form{
+    width: 70%;
+}
+
+.mini #search-form input[type=text]{
+    font-size: 14px;
+    padding: 4px 0px 4px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #777;
+    border: 1px solid #777;
+}
+
+.mini #search-form input[type=submit]{
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    right: 4px;
+    background: url("images/search.png") center center no-repeat;
+    background-size: contain;
+}
+
+.mini #search-form{
+    width: 70%;
+}
+
+
+.inline-menu #search-form{
+    margin-top: 7px;
+}
+
+
+.inversion .mini #search-form input[type=text]{
+    font-size: 14px;
+    padding: 4px 0px 4px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #FFF;
+}
+
+.clwhite #search-form input[type=submit]{
+    top: 2px;
+    right: 2px;
+}

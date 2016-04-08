@@ -1,0 +1,132 @@
+.menu-wrapper {
+    display: table;
+}
+
+.dcontainer.dark-light.theme3{
+    padding-top:30px;
+}
+
+.dcontainer.dark-light.border-light{
+    border-bottom: 1px solid #EEE;
+}
+
+.dark-light.inversion .headline
+,.dark-light.inversion .headline2{
+    color: #FFF;
+}
+
+.dark-light.inversion .headline a {
+    color: #DDD;
+}
+
+.dark-light.inversion .top-menu a {
+    color: #FFF;
+}
+
+.dark-light.inversion .top-menu-transparent-color a {
+    color: #FFF;
+}
+
+.container.slider-container, .container.slider-container-color{
+}
+
+.container.slider-container.full-screen{
+    padding-top: 0;
+}
+
+.dcontainer.nav > .container .row{
+    margin: 0;
+}
+
+.row.headline{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#ext-line{
+    font-size: 14px;
+}
+
+.dcontainer{
+    background: #FFF;
+}
+
+.dcontainer.dark-light{
+    border-top: 10px solid #0f3e68;
+}
+
+.row.slider-line{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.chead-line a span.glyphicon{
+    margin-right: 5px;
+    line-height: 180%;
+}
+
+.chead-line a{
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.container .navigation{
+    background: transparent;
+    padding-top: 10px;
+}
+
+.bx_breadcrumbs{
+    padding-top: 5px !important;
+}
+
+.bx_breadcrumbs ul li a{
+    font-size: 12px !important;
+}
+
+.inversion .bx_breadcrumbs ul li a{
+    color: #F8F8F8;
+    opacity: 1;
+}
+
+.bx_breadcrumbs ul li span{
+    font-size: 12px !important;
+}
+
+.theme2{
+    padding-top: 5px;
+}
+
+.theme2 .compound{
+    margin-top: 5px;
+}
+
+.tagline {
+    margin: 7px 0 0 -28px;
+    font-size: 13px;
+    color: #a3a3a3;
+}
+
+#phone-line.head-big-phone {
+  font-size: 30px;
+  margin-top: 4px;
+  font-weight: normal;
+  color: #414141;
+}
+
+#phone-line.head-big-phone span:first-child {
+    color: #979ea3;
+}
+
+#phone-line.head-big-phone span:last-child {
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    top: -1px;
+    padding: 10px;
+    cursor: pointer;
+    left: 10px;
+}
+
+.head-big-phone.open-answer-form {
+    cursor: pointer;
+}

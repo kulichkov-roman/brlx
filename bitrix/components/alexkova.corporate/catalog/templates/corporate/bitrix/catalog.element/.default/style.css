@@ -1,0 +1,208 @@
+.emarket_slider{
+    margin-top: 20px;
+    position: relative;
+}
+
+#emarket_big_photo{
+    width: 500px;
+    max-width: 100%;
+    height: 300px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    border: 1px solid #EEE;
+    position: relative;
+}
+
+#emarket_big_photo  img {
+    max-width: 480px;
+    max-width: 90%;
+    max-height: 290px;
+}
+
+#emarket_big_photo img.inslider-hide{
+    display: none;
+}
+
+#emarket-photo-slider > input{
+    display: none;
+    top: 18px;
+}
+
+#emarket-photo-slider{
+    width: 540px;
+}
+
+#emarket-photo-slider > input.list-slide-button-prev{
+    left: -10px;
+    width: 30px;
+}
+
+#emarket-photo-slider > input.list-slide-button-next{
+    right: -10px;
+    width: 30px;
+}
+
+#c_photos{
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#c_photos div {
+    display: table-cell;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+}
+
+#c_photos img {
+    max-width: 70px;
+    max-height: 70px;
+    height: auto;
+}
+
+#c_photos li{
+    float: left;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid #CCC;
+    cursor: pointer;
+    margin-right: 14px;
+    margin-bottom: 10px;
+}
+
+
+#c_photos li.active{
+    border: 2px solid #000;
+}
+
+.price-line{
+    width: 100%;
+    background: #F8F8F8;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.corporate-product-operation{
+    text-align: center;
+}
+
+.product-price{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.product-old-price{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.corporate-product-description{
+    font-size: 14px;
+    /*padding: 20px 15px;*/
+}
+
+.emarket-tabs{
+    display: block;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.emarket-tabs li{
+    display: block;
+    float: left;
+    border: 1px solid #e8e8e8;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
+    background: #CCC;
+    font-size: 14px;
+    margin-right: 6px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.emarket-tabs li.active{
+    background: #FFF;
+    color: #000;
+}
+
+.emarket-tabs li span{
+    display: block;
+    padding: 6px 40px 12px;
+    position: relative;
+    bottom: -2px;
+}
+
+.emarket-tabs li.active span{
+    background: #FFF;
+    z-index: 12;
+}
+
+.emarket-detail-area{
+    border: 1px solid #e8e8e8;
+}
+
+#emarket-description-tab, #emarket-stores-tab, #emarket-props-tab{
+    margin: 20px;
+}
+
+.emarket-detail-area-container{
+    display: none;
+}
+
+.emarket-detail-area-container{
+    margin: 20px 0;
+}
+
+#emarket-file-tab{
+    margin: 20px;
+}
+
+.emarket-props-table .emarket-props-name, .emarket-props-table .emarket-props-data{
+    width: 50%;
+}
+
+.emarket-props-table td{
+    padding-bottom: 15px;
+}
+
+.emarket-props-table .emarket-props-data{
+    padding-left: 5px;
+}
+
+.emarket-props-table .emarket-props-data-group{
+    padding-left: 0px;
+    text-transform: uppercase;
+}
+
+.emarket-props-table .emarket-props-name{
+    background: url("images/gray_pixel.png") no-repeat;
+    background-position: 0px 12px;
+    background-repeat: repeat-x;
+}
+
+.emarket-props-table .emarket-props-name span{
+    background: #FFF;
+    padding: 3px 5px 3px 0;
+}
+
+@media (max-width: 767px) {
+    #emarket_big_photo{
+        margin: 0 auto;
+    }
+
+    #emarket-props-tab{
+        display: block;
+    }
+}
