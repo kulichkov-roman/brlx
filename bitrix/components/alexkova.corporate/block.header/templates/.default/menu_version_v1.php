@@ -15,5 +15,5 @@
 		"DELAY" => "N",
 		"ALLOW_MULTI_SELECT" => "N"
 	),
-	$component
+	$false
 );?>
