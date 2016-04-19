@@ -14,8 +14,8 @@ $aMenuLinksExt = $APPLICATION->IncludeComponent(
 		"CACHE_TYPE" => "N",
 		"CACHE_TIME" => "36000",
 		"SEF_BASE_URL" => SITE_DIR."/catalog/",
-		"SECTION_PAGE_URL" => "#SECTION_CODE#/",
-		"DETAIL_PAGE_URL" => "#SECTION_CODE#/#ELEMENT_CODE#/"
+		"SECTION_PAGE_URL" => "#SECTION_CODE_PATH#/",
+		"DETAIL_PAGE_URL" => "#SECTION_CODE_PATH#/#ELEMENT_CODE#/"
 	)
 );
 
